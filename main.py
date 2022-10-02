@@ -1,4 +1,4 @@
-TOKEN = 'ODMzMzM0ODYzMzg5OTE3MjI0.G7oD0y.RxHDYYunl9cu6mNExToVKZuN3XrFwVbRzi8WsA'
+TOKEN = 'token here'
 
 # This example requires the 'message_content' intent.
 
@@ -53,4 +53,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('ODMzMzM0ODYzMzg5OTE3MjI0.G7oD0y.RxHDYYunl9cu6mNExToVKZuN3XrFwVbRzi8WsA')
+client.run(TOKEN)
