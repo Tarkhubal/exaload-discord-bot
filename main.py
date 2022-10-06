@@ -5,6 +5,8 @@ TOKEN = 'your token here'
 import discord
 from random import *
 from all_commands import *
+from discord.utils import *
+import os
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -34,7 +36,7 @@ class MyClient(discord.Client):
         
         if 'website' in message.content:
             await message.channel.send(embed = website_embed())
-            
+
 
 intents = discord.Intents.default()
 intents.message_content = True
