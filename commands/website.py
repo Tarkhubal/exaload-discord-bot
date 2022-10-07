@@ -1,5 +1,6 @@
 def website_embed():
     import discord
+
     website_embed = discord.Embed(
         title="Le site web Exaload",
         url="https://exaload.glitch.me/",
