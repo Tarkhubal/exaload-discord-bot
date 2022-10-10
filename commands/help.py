@@ -1,14 +1,9 @@
 from random import *
-
+from lang.lang_translate import *
 
 def help_msg():
     import discord
-    msg_help_alt_list = [
-        "Vous avez demandé de l'aide ? 😎",
-        "Un message d'aide sauvage !!",
-        "OH MON DIEU UN MESSAGE D'AIDE !!",
-        "Vous avez besoin d'aide ? ;-;"
-    ]
+    msg_help_alt_list = lang_obj_fr_fr['help_alt']
 
     help_embed = discord.Embed(
         title=msg_help_alt_list[randint(0, len(msg_help_alt_list) - 1)],

@@ -1,4 +1,4 @@
-from json import *
+from commands.lang.lang_translate import *
 import os
 from discord.utils import *
 from all_commands import *
@@ -15,17 +15,11 @@ TOKEN = 'your token here'
 used_commands = 0
 total_messages_read = 0
 
-lang = "fr_fr"
-
-lang_fr_fr = open("lang/fr_fr.json", "r")
-lang_fr_fr_content = lang_fr_fr.read()
-lang_obj_fr_fr = loads(lang_fr_fr_content)
-
 
 class MyClient(discord.Client):
     async def on_ready(self):
         print(f'' + lang_obj_fr_fr['logged'] +
-              ' {self.user} (ID: {self.user.id})')
+              f' {self.user} (ID: {self.user.id})')
         await client.change_presence(activity=discord.Game(name="essayer de t'aider !"))
 
     async def on_message(self, message):
@@ -63,7 +57,7 @@ class MyClient(discord.Client):
 
         if 'random' in message.content:
             # to create
-            await message.channel.send("Une commande à venir !!")
+            await message.channel.send(lang_obj_fr_fr['future_commands'])
 
 
 intents = discord.Intents.default()

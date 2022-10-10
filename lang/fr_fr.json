@@ -1,7 +1,0 @@
-{
-    "__main": "/main.py",
-    "logged": "Connecté en tant que ",
-    "future_commands": "Une commande à venir !",
-
-    "__bye": "/commands/bye.py"
-}

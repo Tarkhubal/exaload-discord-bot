@@ -1,0 +1,30 @@
+{
+    "__main": "/main.py",
+    "logged": "Connecté en tant que ",
+    "future_commands": "Une commande à venir !",
+
+    "__bye": "/commands/bye.py",
+    "bye_alt": [
+        "Au revoir !👋",
+        "A bientôt !",
+        "Salut ! 👋",
+        "À pluuuus >:3",
+        "À la prochaine !"
+    ],
+
+    "__hello": "/commands/hello.py",
+    "hello_alt": [
+        "Salut ! 👋",
+        "Bonjour ! :3",
+        "Salut à toi ! ✌",
+        "Bonjour à toi !"
+    ],
+
+    "__help": "/commands/help.py",
+    "help_alt": [
+        "Vous avez demandé de l'aide ? 😎",
+        "Un message d'aide sauvage !!",
+        "OH MON DIEU UN MESSAGE D'AIDE !!",
+        "Vous avez besoin d'aide ? ;-;"
+    ]
+}

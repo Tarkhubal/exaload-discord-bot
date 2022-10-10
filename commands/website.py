@@ -1,3 +1,5 @@
+from lang.lang_translate import *
+
 def website_embed():
     import discord
 
