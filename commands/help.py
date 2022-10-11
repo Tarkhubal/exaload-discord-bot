@@ -8,42 +8,42 @@ def help_msg():
     help_embed = discord.Embed(
         title=msg_help_alt_list[randint(0, len(msg_help_alt_list) - 1)],
         color=0xffffff,
-        description="Je vais essayer de t'aider !"
+        description= lang_obj_fr_fr['help_desc']
     )
     help_embed.add_field(
-        name="Pour les commandes suivantes, le bot y répondra même sans mettre de préfix !",
-        value="_Essaie d'écrire une belle phrase avec ces mots pour voir !_",
+        name= lang_obj_fr_fr['help_title'],
+        value= lang_obj_fr_fr['help_desc'],
         inline=False
     )
 
     help_embed.add_field(
         name="help",
-        value="Génère cette aide !",
+        value= lang_obj_fr_fr['help_command__help'],
         inline=True
     )
     help_embed.add_field(
         name="website",
-        value="Génère un joli message avec pleins d'informations sur le site web [Exaload](https://exaload.glitch.me) !",
+        value= lang_obj_fr_fr['help_command__website'],
         inline=True
     )
     help_embed.add_field(
-        name="ping",
-        value="Un petit ping pour voir si le bot est en ligne :3",
+        name="stats",
+        value= lang_obj_fr_fr['help_command__stats'],
         inline=True
     )
     help_embed.add_field(
         name="hello",
-        value="Le bot te dis bonjour ! 👋",
+        value= lang_obj_fr_fr['help_command__hello'],
         inline=True
     )
     help_embed.add_field(
         name="bye",
-        value="Et là il te dit au revoir >:3",
+        value= lang_obj_fr_fr['help_command__bye'],
         inline=True
     )
     help_embed.add_field(
         name="tg",
-        value="C'est pas cool de dire ça au bot :(",
+        value= lang_obj_fr_fr['help_command__tg'],
         inline=True
     )
 

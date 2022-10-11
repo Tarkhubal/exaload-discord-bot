@@ -1,3 +1,6 @@
+from lang.lang_translate import *
+
+
 def stats_msg():
     return "Pong ! :3"
 
@@ -5,8 +8,8 @@ def stats_msg():
 def stats_embed(used_commands, total_messages_read):
     import discord
     stats_embed = discord.Embed(
-        title="Pong ! :3",
-        description="Détermine le ping du bot !",
+        title= lang_obj_fr_fr['stats_title'],
+        description="Voici pleins d'infos sur le bot !",
         color=0x00ff00
     )
     stats_embed.add_field(

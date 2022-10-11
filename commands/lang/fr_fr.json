@@ -3,6 +3,8 @@
     "logged": "Connecté en tant que ",
     "future_commands": "Une commande à venir !",
 
+
+
     "__bye": "/commands/bye.py",
     "bye_alt": [
         "Au revoir !👋",
@@ -12,6 +14,8 @@
         "À la prochaine !"
     ],
 
+
+
     "__hello": "/commands/hello.py",
     "hello_alt": [
         "Salut ! 👋",
@@ -20,11 +24,27 @@
         "Bonjour à toi !"
     ],
 
+
+
     "__help": "/commands/help.py",
     "help_alt": [
         "Vous avez demandé de l'aide ? 😎",
         "Un message d'aide sauvage !!",
         "OH MON DIEU UN MESSAGE D'AIDE !!",
         "Vous avez besoin d'aide ? ;-;"
-    ]
+    ],
+    "help_desc": "Je vais essayer de t'aider !",
+    "help_title": "Pour les commandes suivantes, le bot y répondra même sans mettre de préfix !",
+    "help_title_desc": "_Essaie d'écrire une belle phrase avec ces mots pour voir !_",
+
+    "help_command__help": "Génère cette aide !",
+    "help_command__website": "Génère un joli message avec pleins d'informations sur le site web [Exaload](https://exaload.glitch.me) !",
+    "help_command__stats": "Une petite commande pour avoir pleins d'informations sur le bot :3",
+    "help_command__hello": "Le bot te dis bonjour ! 👋",
+    "help_command__bye": "Et là il te dit au revoir >:3",
+    "help_command__tg": "C'est pas gentil de dire ça :(",
+
+
+    "__stats": "/commands/stats.py",
+    "stats_title": "Des stats ! 😲"
 }
