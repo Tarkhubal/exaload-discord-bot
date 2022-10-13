@@ -10,6 +10,8 @@ def help_msg():
         color=0xffffff,
         description= lang_obj_fr_fr['help_desc']
     )
+    
+    
     help_embed.add_field(
         name= lang_obj_fr_fr['help_title'],
         value= lang_obj_fr_fr['help_desc'],

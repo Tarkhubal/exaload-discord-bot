@@ -46,5 +46,6 @@
 
 
     "__stats": "/commands/stats.py",
-    "stats_title": "Des stats ! 😲"
+    "stats_title": "Des stats ! 😲",
+    "stats_desc": "Voici pleins d'infos sur le bot !"
 }

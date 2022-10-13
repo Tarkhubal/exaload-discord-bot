@@ -9,7 +9,7 @@ def stats_embed(used_commands, total_messages_read):
     import discord
     stats_embed = discord.Embed(
         title= lang_obj_fr_fr['stats_title'],
-        description="Voici pleins d'infos sur le bot !",
+        description= lang_obj_fr_fr['stats_desc'],
         color=0x00ff00
     )
     stats_embed.add_field(
