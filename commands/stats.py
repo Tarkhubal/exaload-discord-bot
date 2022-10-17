@@ -1,4 +1,6 @@
-from lang.lang_translate import *
+from commands.lang.lang_translate import *
+from discord import *
+import discord
 
 
 def stats_msg():
@@ -12,11 +14,11 @@ def stats_embed(used_commands, total_messages_read):
         description= lang_obj_fr_fr['stats_desc'],
         color=0x00ff00
     )
-    stats_embed.add_field(
-        name= lang_obj_fr_fr['latency'],
-        value=str(round(client.latency * 1000)),
-        inline=False
-    )
+    #stats_embed.add_field(
+    #    name= lang_obj_fr_fr['latency'],
+    #    value=str(round(client.latency * 1000)),
+    #    inline=False
+    #)
     stats_embed.add_field(
         name= lang_obj_fr_fr['used_commands'],
         value=str(used_commands)

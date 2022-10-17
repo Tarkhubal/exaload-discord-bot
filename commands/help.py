@@ -1,5 +1,5 @@
 from random import *
-from lang.lang_translate import *
+from commands.lang.lang_translate import *
 
 def help_msg():
     import discord

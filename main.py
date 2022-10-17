@@ -5,6 +5,8 @@ from all_commands import *
 from random import *
 import discord
 from discord.ext import commands
+from database.dataadd import *
+from json import *
 
 
 TOKEN = 'your token here'
@@ -23,12 +25,21 @@ class MyClient(discord.Client):
         await client.change_presence(activity=discord.Game(name="essayer de t'aider !"))
 
     async def on_message(self, message):
+        
+        #database = open("database/users.json", "a")
+        # f not(message.author.id in database['']):
+        #add = {message.author.id}
+        #database.update(add)
+        
+        
         print(f'{message.author}: {message.content}')
 
         # don't respond to ourselves
         if message.author == self.user:
             return
 
+        global total_messages_read
+        global used_commands
         total_messages_read += 1
 
         if 'ping' in message.content:

@@ -1,67 +1,67 @@
 {
     "__main": "/main.py",
-    "logged": "Connecté en tant que ",
-    "future_commands": "Une commande à venir !",
+    "logged": "Connect\u00e9 en tant que",
+    "future_commands": "Une commande \u00e0 venir !",
 
 
     "__bye": "/commands/bye.py",
     "bye_alt": [
-        "Au revoir !👋",
-        "A bientôt !",
-        "Salut ! 👋",
-        "À pluuuus >:3",
-        "À la prochaine !"
+        "Au revoir ! \ud83d\udc4b",
+        "\u00c0 bient\u00f4t !",
+        "Salut ! \ud83d\udc4b",
+        "\u00c0 pluuuus >:3",
+        "\u00c0 la prochaine !"
     ],
 
 
     "__hello": "/commands/hello.py",
     "hello_alt": [
-        "Salut ! 👋",
+        "Salut ! \ud83d\udc4b",
         "Bonjour ! :3",
-        "Salut à toi ! ✌",
-        "Bonjour à toi !"
+        "Salut \u00e0 toi ! \u270c",
+        "Bonjour \u00e0 toi !"
     ],
 
 
     "__help": "/commands/help.py",
     "help_alt": [
-        "Vous avez demandé de l'aide ? 😎",
+        "Vous avez demand\u00e9 de l'aide ? \ud83d\ude0e",
         "Un message d'aide sauvage !!",
         "OH MON DIEU UN MESSAGE D'AIDE !!",
         "Vous avez besoin d'aide ? ;-;"
     ],
     "help_desc": "Je vais essayer de t'aider !",
-    "help_title": "Pour les commandes suivantes, le bot y répondra même sans mettre de préfix !",
-    "help_title_desc": "_Essaie d'écrire une belle phrase avec ces mots pour voir !_",
-    "help_command__help": "Génère cette aide !",
-    "help_command__website": "Génère un joli message avec pleins d'informations sur le site web [Exaload](https://exaload.glitch.me) !",
+    "help_title": "Pour les commandes suivantes, le bot y r\u00e9pondra même sans mettre de pr\u00e9fix !",
+    "help_title_desc": "_Essaie d'\u00e9crire une belle phrase avec ces mots pour voir !_",
+    "help_command__help": "G\u00e9n\u00e8re cette aide !",
+    "help_command__website": "G\u00e9n\u00e8re un joli message avec pleins d'informations sur le site web [Exaload](https://exaload.glitch.me) !",
     "help_command__stats": "Une petite commande pour avoir pleins d'informations sur le bot :3",
-    "help_command__hello": "Le bot te dis bonjour ! 👋",
-    "help_command__bye": "Et là il te dit au revoir >:3",
+    "help_command__hello": "Le bot te dis bonjour ! \ud83d\udc4b",
+    "help_command__bye": "Et l\u00e0 il te dit au revoir >:3",
     "help_command__tg": "C'est pas gentil de dire ça :(",
 
 
     "__stats": "/commands/stats.py",
-    "stats_title": "Des stats ! 😲",
+    "stats_title": "Des stats ! \ud83d\ude32",
     "stats_desc": "Voici pleins d'infos sur le bot !",
     "latency": "Latence",
-    "used_commands": "Nombre de commandes effectuées :",
+    "used_commands": "Nombre de commandes effectu\u00e9es :",
     "total_messages_read": "Nombre de messages lus :",
 
 
     "__tg": "/commands/tg.py",
-    "tg_msg": "C'est pas très gentil tout ça Baku :(",
+    "tg_msg": "C'est pas tr\u00e8s gentil tout ça Baku :(",
 
     "__website": "/commands/website.py",
     "website_title": "Le site web Exaload",
     "website_url": "https://exaload.glitch.me",
-    "website_desc": "Voici une petite présentation du projet Exaload",
-    "website_footer_title": "Made with ❤ by Un Thomas Sauvage !!#1309",
-    "website_footer_icon": "https://cdn.discordapp.com/avatars/755738381455065120/94e36a128d280a8a79fe847a0a10a379.webp?size=1024",
+    "website_desc": "Voici une petite pr\u00e9sentation du projet Exaload",
+    "website_footer_title": "Made with love by Un Thomas Sauvage !!\u00231309",
+    "website_footer_icon": "https://cdn.discordapp.com/avatars/755738381455065120/94e36a128d280a8a79fe847a0a10a379.webp",
     "objective": "Notre objectif",
-    "objective_desc": "Notre objectif est de créer un site internet qui rassemblerait tous les jeux, les films, les musiques ou encore les séries. SAUF que tout cela serait accessible gratuitement (voir sur le site pour plus d'informations)",
-    "social_nets": "Nos réseaux sociaux",
-    "social_nets_desc": "Chez Exaload, on aime vous écouter, donc on essaie d'être disponibles au max sur les réseaux sociaux pour que vous puissiez nous donner toutes vos impressions sur notre projet !\n\nVoici la liste de nos comptes :\n- [Discord](https://discord.gg/2FjfpXavSF)\n- [Twitter](https://www.twitter.com/exa_load)\n- [Instagram](https://www.instagram.com/exaload)\n\n(et d'autres encore mais flemme de remplir la description avec ça pour le moment xD)",
-    "equip": "Notre équipe",
-    "equip_desc": "Nous équipe est actuellement composée de 6 personnes :\n- Un Thomas Sauvage !!#1309\n- D4RTH36dious#2007\n- aymanouse#8586\n- Adriwin#7410\n- Kiverix#8301\n- Truzz™#3826"
+    "objective_desc": "Notre objectif est de cr\u00e9er un site internet qui rassemblerait tous les jeux, les films, les musiques ou encore les s\u00e9ries. SAUF que tout cela serait accessible gratuitement (voir sur le site pour plus d'informations)",
+    "social_nets": "Nos r\u00e9seaux sociaux",
+    "social_nets_desc": "Chez Exaload, on aime vous \u00e9couter, donc on essaie d'être disponibles au max sur les r\u00e9seaux sociaux pour que vous puissiez nous donner toutes vos impressions sur notre projet !\n\nVoici la liste de nos comptes :\n- [Discord](https://discord.gg/2FjfpXavSF)\n- [Twitter](https://www.twitter.com/exa_load)\n- [Instagram](https://www.instagram.com/exaload)\n\n(et d'autres encore mais flemme de remplir la description avec ça pour le moment xD)",
+    "equip": "Notre \u00e9quipe",
+    "equip_desc": "Nous \u00e9quipe est actuellement compos\u00e9e de 6 personnes :\n- Un Thomas Sauvage !!\u00231309\n- D4RTH36dious\u00232007\n- aymanouse\u00238586\n- Adriwin\u00237410\n- Kiverix\u00238301\n- Truzz\u2122\u00233826"
 }

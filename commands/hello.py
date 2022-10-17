@@ -1,5 +1,5 @@
 from random import *
-from lang.lang_translate import *
+from commands.lang.lang_translate import *
 
 def hello_msg():
     msg_hello_alt_list = lang_obj_fr_fr['hello_alt'] 
