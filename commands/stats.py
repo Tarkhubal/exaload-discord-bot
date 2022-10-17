@@ -13,16 +13,16 @@ def stats_embed(used_commands, total_messages_read):
         color=0x00ff00
     )
     stats_embed.add_field(
-        name="Latence",
+        name= lang_obj_fr_fr['latency'],
         value=str(round(client.latency * 1000)),
         inline=False
     )
     stats_embed.add_field(
-        name="Nombre de commandes effectuées :",
+        name= lang_obj_fr_fr['used_commands'],
         value=str(used_commands)
     )
     stats_embed.add_field(
-        name="Nombre de messages lus :",
+        name= lang_obj_fr_fr['total_messages_read'],
         value=str(total_messages_read)
     )
     return stats_embed

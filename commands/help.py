@@ -6,47 +6,47 @@ def help_msg():
     msg_help_alt_list = lang_obj_fr_fr['help_alt']
 
     help_embed = discord.Embed(
-        title=msg_help_alt_list[randint(0, len(msg_help_alt_list) - 1)],
-        color=0xffffff,
-        description= lang_obj_fr_fr['help_desc']
+        title =     msg_help_alt_list[randint(0, len(msg_help_alt_list) - 1)],
+        color =     0xffffff,
+        description =lang_obj_fr_fr['help_desc']
     )
     
     
     help_embed.add_field(
-        name= lang_obj_fr_fr['help_title'],
-        value= lang_obj_fr_fr['help_desc'],
-        inline=False
+        name =      lang_obj_fr_fr['help_title'],
+        value =     lang_obj_fr_fr['help_desc'],
+        inline =    False
     )
 
     help_embed.add_field(
-        name="help",
-        value= lang_obj_fr_fr['help_command__help'],
-        inline=True
+        name =      "help",
+        value =     lang_obj_fr_fr['help_command__help'],
+        inline =    True
     )
     help_embed.add_field(
-        name="website",
-        value= lang_obj_fr_fr['help_command__website'],
-        inline=True
+        name =      "website",
+        value =     lang_obj_fr_fr['help_command__website'],
+        inline =    True
     )
     help_embed.add_field(
-        name="stats",
-        value= lang_obj_fr_fr['help_command__stats'],
-        inline=True
+        name =      "stats",
+        value =     lang_obj_fr_fr['help_command__stats'],
+        inline =    True
     )
     help_embed.add_field(
-        name="hello",
-        value= lang_obj_fr_fr['help_command__hello'],
-        inline=True
+        name =      "hello",
+        value =     lang_obj_fr_fr['help_command__hello'],
+        inline =    True
     )
     help_embed.add_field(
-        name="bye",
-        value= lang_obj_fr_fr['help_command__bye'],
-        inline=True
+        name =      "bye",
+        value =     lang_obj_fr_fr['help_command__bye'],
+        inline =    True
     )
     help_embed.add_field(
-        name="tg",
-        value= lang_obj_fr_fr['help_command__tg'],
-        inline=True
+        name =      "tg",
+        value =     lang_obj_fr_fr['help_command__tg'],
+        inline =    True
     )
 
     return help_embed
