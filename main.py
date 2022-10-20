@@ -1,10 +1,8 @@
 from commands.lang.lang_translate import *
-import os
 from discord.utils import *
 from all_commands import *
 from random import *
 import discord
-from discord.ext import commands
 from database.dataadd import *
 from json import *
 
@@ -12,7 +10,6 @@ from json import *
 TOKEN = 'your token here'
 
 # This example requires the 'message_content' intent.
-
 
 used_commands = 0
 total_messages_read = 0
@@ -25,12 +22,6 @@ class MyClient(discord.Client):
         await client.change_presence(activity=discord.Game(name="essayer de t'aider !"))
 
     async def on_message(self, message):
-        
-        #database = open("database/users.json", "a")
-        # f not(message.author.id in database['']):
-        #add = {message.author.id}
-        #database.update(add)
-        
         
         print(f'{message.author}: {message.content}')
 
